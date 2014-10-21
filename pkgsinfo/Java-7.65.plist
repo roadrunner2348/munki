@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-07-16T15:34:21Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Java 7 Update 65</string>
+	<key>installed_size</key>
+	<integer>145352</integer>
+	<key>installer_item_hash</key>
+	<string>bf510628d57f3f00974b175ba47adc62e97aefaf6c55a2a1dad0b295f1dc2123</string>
+	<key>installer_item_location</key>
+	<string>Java 7 Update 65.pkg</string>
+	<key>installer_item_size</key>
+	<integer>49939</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>Java 7 Update 65</string>
+			<key>CFBundleVersion</key>
+			<string>1.7.65.17</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.3</string>
+	<key>name</key>
+	<string>Java</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7.65</string>
+</dict>
+</plist>

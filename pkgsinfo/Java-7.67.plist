@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-09-10T23:45:22Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Java 7 Update 67</string>
+	<key>installed_size</key>
+	<integer>145352</integer>
+	<key>installer_item_hash</key>
+	<string>dba3e615131f512b7a3388ddfdfd8443423f5126a5d141ddb3b83fde0903f024</string>
+	<key>installer_item_location</key>
+	<string>Java 7 Update 67-7.67.pkg</string>
+	<key>installer_item_size</key>
+	<integer>49939</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>Java 7 Update 67</string>
+			<key>CFBundleVersion</key>
+			<string>1.7.67.01</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Java</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7.67</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Java for OS X 2013-005</string>
+	<key>installed_size</key>
+	<integer>75897</integer>
+	<key>installer_item_hash</key>
+	<string>1e734c42a018fbf027b45523c22e25d40091cbfab50f5e39280e851277772c9d</string>
+	<key>installer_item_location</key>
+	<string>Java6-2013.005.pkg</string>
+	<key>installer_item_size</key>
+	<integer>65446</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Java6</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>37022</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaEssentials</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>77918</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaForMacOSX107</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>206</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaMDNS</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1622</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaSecurity</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2013.005</string>
+</dict>
+</plist>

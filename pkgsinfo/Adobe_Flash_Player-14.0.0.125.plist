@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-06-26T13:54:13Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Flash Player</string>
+	<key>installed_size</key>
+	<integer>16860</integer>
+	<key>installer_item_hash</key>
+	<string>1a5e085574707a633a6634adf2ff42ab6fe6cbdbb870d1b125786e6d2ce88c64</string>
+	<key>installer_item_location</key>
+	<string>Adobe_Flash_Player-14.0.0.125.pkg</string>
+	<key>installer_item_size</key>
+	<integer>15638</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>14.0.0.125</string>
+			<key>CFBundleVersion</key>
+			<string>14.0.0.125</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/Flash Player.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe_Flash_Player</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>14.0.0.125</string>
+</dict>
+</plist>

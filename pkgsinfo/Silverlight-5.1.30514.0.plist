@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-09-11T21:29:25Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.4</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Microsoft® Silverlight™ Browser Plug-In</string>
+	<key>installed_size</key>
+	<integer>99420</integer>
+	<key>installer_item_hash</key>
+	<string>73792c8601ccb3b9a49ce0b3edd1f5475239c7c65943e9a519e7de9febcc6c7e</string>
+	<key>installer_item_location</key>
+	<string>Silverlight-5.1.30514.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>14653</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Silverlight</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Silverlight.pkg</string>
+			<key>installed_size</key>
+			<integer>99420</integer>
+			<key>packageid</key>
+			<string>com.microsoft.SilverlightInstaller</string>
+			<key>version</key>
+			<string>5.1.30514.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.1.30514.0</string>
+</dict>
+</plist>

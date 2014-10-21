@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-06-26T13:51:24Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Java 7 Update 60</string>
+	<key>installed_size</key>
+	<integer>145316</integer>
+	<key>installer_item_hash</key>
+	<string>53fc090e8b95c65b6736d2dd8c8c9270d8b3a5bc5891fdfa9c871659f6c5ffe4</string>
+	<key>installer_item_location</key>
+	<string>jre-7u60-macosx-x64-7.60.dmg</string>
+	<key>installer_item_size</key>
+	<integer>49689</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>Java 7 Update 60</string>
+			<key>CFBundleVersion</key>
+			<string>1.7.60.19</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.3</string>
+	<key>name</key>
+	<string>Java</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7.60</string>
+</dict>
+</plist>

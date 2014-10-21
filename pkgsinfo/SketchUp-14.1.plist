@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-09-04T15:48:04Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>SketchUp 2014</string>
+	<key>installed_size</key>
+	<integer>295407</integer>
+	<key>installer_item_hash</key>
+	<string>78de13bc16b5f176cb5e33cddbc8d545cb0c529985ac737226767f425ebad0f2</string>
+	<key>installer_item_location</key>
+	<string>SketchUp 2014-14.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>106634</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sketchup.SketchUp.2014</string>
+			<key>CFBundleName</key>
+			<string>SketchUp</string>
+			<key>CFBundleShortVersionString</key>
+			<string>14.1</string>
+			<key>CFBundleVersion</key>
+			<string>14.1.1283</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
+			<key>path</key>
+			<string>/Applications/SketchUp 2014/SketchUp.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SketchUp</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>14.1</string>
+</dict>
+</plist>

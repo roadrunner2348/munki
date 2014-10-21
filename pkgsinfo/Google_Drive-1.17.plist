@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-10-21T15:05:24Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.10</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Google Drive</string>
+	<key>installed_size</key>
+	<integer>73094</integer>
+	<key>installer_item_hash</key>
+	<string>278fb93aac0d840bc090fe80d11a701570ceabc69f29f89eba938dab2838dba1</string>
+	<key>installer_item_location</key>
+	<string>Google_Drive-1.17.dmg</string>
+	<key>installer_item_size</key>
+	<integer>27567</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>43d4ef1be5b60f3a1724af59591fbc69</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/Google Drive Icon Helper</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.google.GoogleDrive</string>
+			<key>CFBundleName</key>
+			<string>Google Drive</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.17</string>
+			<key>CFBundleVersion</key>
+			<string>1.17.7290.4094</string>
+			<key>path</key>
+			<string>/Applications/Google Drive.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Google_Drive</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.17</string>
+</dict>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>QR Code Reader</string>
+	<key>display_name</key>
+	<string>QR Journal</string>
+	<key>installer_item_hash</key>
+	<string>939b0a5844f626c346724b3e37346f308935c1fc7a7ef2d6cba417ca01b3f7cd</string>
+	<key>installer_item_location</key>
+	<string>QR Journal-1.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2190</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.joshjacob.qrjournal</string>
+			<key>CFBundleName</key>
+			<string>QR Journal</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.3</string>
+			<key>CFBundleVersion</key>
+			<string>1405</string>
+			<key>minosversion</key>
+			<string>10.8</string>
+			<key>path</key>
+			<string>/Applications/QR Journal.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>QR Journal.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.8</string>
+	<key>name</key>
+	<string>QR_Journal</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.3</string>
+</dict>
+</plist>

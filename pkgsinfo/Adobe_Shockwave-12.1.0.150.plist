@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Shockwave Player 12.1</string>
+	<key>installed_size</key>
+	<integer>34912</integer>
+	<key>installer_item_hash</key>
+	<string>963ed0dde62deac57412186fcda6149daea4be73fe8749e9ca7007f04e013f6c</string>
+	<key>installer_item_location</key>
+	<string>Adobe_Shockwave-12.1.0.150.pkg</string>
+	<key>installer_item_size</key>
+	<integer>13346</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe_Shockwave</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>34912</integer>
+			<key>packageid</key>
+			<string>adobe.adobeShockwavePlayer.shockwave12.pkg</string>
+			<key>version</key>
+			<string>"12.1.0.150"</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>12.1.0.150</string>
+</dict>
+</plist>

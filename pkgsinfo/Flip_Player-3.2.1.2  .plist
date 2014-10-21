@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Flip Player</string>
+	<key>installer_item_hash</key>
+	<string>d6022605f52351929c806835959b40d7fd0bd712c9f37220026af8b550061b1d</string>
+	<key>installer_item_location</key>
+	<string>Flip Player-3.2.1.2  .dmg</string>
+	<key>installer_item_size</key>
+	<integer>16765</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>net.telestream.Flip-Player</string>
+			<key>CFBundleName</key>
+			<string>Flip Player</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.2.1.2  </string>
+			<key>CFBundleVersion</key>
+			<string>116033</string>
+			<key>minosversion</key>
+			<string>10.7</string>
+			<key>path</key>
+			<string>/Applications/Flip Player.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Flip Player.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.9</string>
+	<key>name</key>
+	<string>Flip_Player</string>
+	<key>requires</key>
+	<array>
+		<string>Flip4Mac</string>
+	</array>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.2.1.2  </string>
+</dict>
+</plist>

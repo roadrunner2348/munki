@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Office 2011 14.1.0 Update</string>
+	<key>installed_size</key>
+	<integer>635089</integer>
+	<key>installer_item_hash</key>
+	<string>875d6f4e3c406fffa3d479ee567a86ef02827ba7a64aaa4299ad9d3961868b64</string>
+	<key>installer_item_location</key>
+	<string>Office_2011_Update-14.1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>252503</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.microsoft.Excel</string>
+			<key>CFBundleName</key>
+			<string>Excel</string>
+			<key>CFBundleShortVersionString</key>
+			<string>14.1.0</string>
+			<key>CFBundleVersion</key>
+			<string>14.1.0</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Office 2011/Microsoft Excel.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.microsoft.Powerpoint</string>
+			<key>CFBundleName</key>
+			<string>PowerPoint</string>
+			<key>CFBundleShortVersionString</key>
+			<string>14.1.0</string>
+			<key>CFBundleVersion</key>
+			<string>14.1.0</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Office 2011/Microsoft PowerPoint.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.microsoft.Word</string>
+			<key>CFBundleName</key>
+			<string>Word</string>
+			<key>CFBundleShortVersionString</key>
+			<string>14.1.0</string>
+			<key>CFBundleVersion</key>
+			<string>14.1.0</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Office 2011/Microsoft Word.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Office_2011_Update</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>Microsoft_Office_2011-14.0.0</string>
+	</array>
+	<key>version</key>
+	<string>14.1.0</string>
+</dict>
+</plist>

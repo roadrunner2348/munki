@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Garage Band Core Content</string>
+	<key>installed_size</key>
+	<integer>1279024</integer>
+	<key>installer_item_hash</key>
+	<string>128b005387d6aaca71b7851b997a80f5b5122af4aebd59d98d6b805aa8e88d9c</string>
+	<key>installer_item_location</key>
+	<string>MAContent10_GarageBandCoreContent-1.0.0.0.1.1256150330.pkg</string>
+	<key>installer_item_size</key>
+	<integer>1498020</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>MAContent10_GarageBandCoreContent</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1967730</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1256150330</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0.0.1.1256150330</string>
+</dict>
+</plist>

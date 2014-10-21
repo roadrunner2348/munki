@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Adobe_Flash_Player</string>
+		<string>Adobe_Reader</string>
+		<string>Adobe_Shockwave</string>
+		<string>AdobeAIR</string>
+		<string>Chrome</string>
+		<string>Evernote</string>
+		<string>Firefox</string>
+		<string>Flip_Player</string>
+		<string>Flip4Mac</string>
+		<string>GarageBand</string>
+		<string>Google_Drive</string>
+		<string>HP_CLJ_M451</string>
+		<string>HP_CLJ_M651</string>
+		<string>HP_LJ_601</string>
+		<string>iBooks Author</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+		<string>Java</string>
+		<string>Java6</string>
+		<string>Keynote</string>
+		<string>MAContent10_GarageBandCoreContent</string>
+		<string>Microsoft_Office_2011</string>
+		<string>MS2011_Lic_Fix</string>
+		<string>munkitools</string>
+		<string>Numbers</string>
+		<string>Office_2011_Update</string>
+		<string>Pages</string>
+		<string>QR_Journal</string>
+		<string>Silverlight</string>
+		<string>SketchUp</string>
+		<string>SmartboardNB</string>
+	</array>
+</dict>
+</plist>

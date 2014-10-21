@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Microsoft Office 2011 License Update</string>
+	<key>installed_size</key>
+	<integer>2</integer>
+	<key>installer_item_hash</key>
+	<string>9f29994b10963f1e46748066ded557b9248488397e3c62ee428c403a458d98bd</string>
+	<key>installer_item_location</key>
+	<string>Microsoft Office 2011 License Update-1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>23</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>a6b21eb9edcb1a6b14251479d92d1101</string>
+			<key>path</key>
+			<string>/Library/Preferences/com.microsoft.office.licensing.plist</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MS2011_Lic_Fix</string>
+	<key>receipts</key>
+	<array/>
+	<key>requires</key>
+	<array>
+		<string>Microsoft_Office_2011</string>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

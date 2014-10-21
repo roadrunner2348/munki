@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-07-29T13:17:35Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Reader XI</string>
+	<key>installed_size</key>
+	<integer>414939</integer>
+	<key>installer_item_hash</key>
+	<string>7e6eefcb35c36faa5350397a59794800aa16817e61b39dc1021afb26b39bd585</string>
+	<key>installer_item_location</key>
+	<string>Adobe_Reader-11.0.07.pkg</string>
+	<key>installer_item_size</key>
+	<integer>101244</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe_Reader</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>405567</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11007.reader.app.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.07</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1144</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11007.reader.browser.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.07</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>8228</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11007.reader.appsupport.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.07</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>11.0.07</string>
+</dict>
+</plist>

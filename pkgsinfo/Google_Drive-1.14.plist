@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Google_Drive</string>
+	<key>installed_size</key>
+	<integer>70808</integer>
+	<key>installer_item_hash</key>
+	<string>22755b382db8ba5031f427733ca44921f476dd2e134bc4b0aaaebc0bba064e78</string>
+	<key>installer_item_location</key>
+	<string>Google_Drive-1.14.dmg</string>
+	<key>installer_item_size</key>
+	<integer>26396</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>43d4ef1be5b60f3a1724af59591fbc69</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/Google Drive Icon Helper</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.google.GoogleDrive</string>
+			<key>CFBundleName</key>
+			<string>Google Drive</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.14</string>
+			<key>CFBundleVersion</key>
+			<string>1.14.6059.0644</string>
+			<key>path</key>
+			<string>/Applications/Google Drive.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Google_Drive</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.14</string>
+</dict>
+</plist>
