@@ -1,3 +1,5 @@
 *.dmg
 *.pkg
 *.mpkg
+catalogs/
+pkgs/
