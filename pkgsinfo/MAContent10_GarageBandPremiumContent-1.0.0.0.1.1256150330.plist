@@ -2,44 +2,49 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-10-29T14:54:53Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.10</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>pilot</string>
-		<string>production</string>
 	</array>
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Garage Band Core Content</string>
+	<string>GarageBand Premium Content</string>
 	<key>installed_size</key>
-	<integer>1279024</integer>
+	<integer>896801</integer>
 	<key>installer_item_hash</key>
-	<string>128b005387d6aaca71b7851b997a80f5b5122af4aebd59d98d6b805aa8e88d9c</string>
+	<string>3a436c8f6826ed42b405b368ca05e3923e477c270506b418c4fcd062d1469658</string>
 	<key>installer_item_location</key>
-	<string>MAContent10_GarageBandCoreContent-1.0.0.0.1.1256150330.pkg</string>
+	<string>MAContent10_GarageBandPremiumContent-1.0.0.0.1.1256150330.pkg</string>
 	<key>installer_item_size</key>
-	<integer>1498020</integer>
+	<integer>1081547</integer>
 	<key>minimum_os_version</key>
-	<string>10.5.0</string>
+	<string>10.9</string>
 	<key>name</key>
-	<string>MAContent10_GarageBandCoreContent</string>
+	<string>MAContent10_GarageBandPremiumContent</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1967730</integer>
+			<integer>1379695</integer>
 			<key>packageid</key>
-			<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+			<string>com.apple.pkg.MAContent10_GarageBandPremiumContent</string>
 			<key>version</key>
 			<string>1.0.0.0.1.1256150330</string>
 		</dict>
-	</array>
-	<key>requires</key>
-	<array>
-		<string>GarageBand</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
@@ -47,7 +52,7 @@
 	<true/>
 	<key>update_for</key>
 	<array>
-		<string>GarageBand-10.0.2</string>
+		<string>GarageBand-10.0.3</string>
 	</array>
 	<key>version</key>
 	<string>1.0.0.0.1.1256150330</string>

@@ -7,56 +7,52 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2014-05-08T14:02:50Z</date>
+		<date>2014-10-29T15:12:35Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
-		<string>10.9.2</string>
+		<string>10.10</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>pilot</string>
-		<string>production</string>
 	</array>
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Garage Band Core Content</string>
+	<string>GarageBand Song Writer Drum Kits</string>
 	<key>installed_size</key>
-	<integer>1280240</integer>
+	<integer>1408516</integer>
 	<key>installer_item_hash</key>
-	<string>f59315c07814f985e3315786ae52736cd08f95e81f1e19ae7496186c7ae256d9</string>
+	<string>49c66535e87c1cf696c6ac20801c84506554851be9f42f5ea7dc1aa88d668314</string>
 	<key>installer_item_location</key>
-	<string>MAContent10_GarageBandCoreContent-2-2.0.0.0.1.1256150330.pkg</string>
+	<string>MAContent10_GB_StereoDrumKitsSongWriter-2.0.0.0.1.1256150330.pkg</string>
 	<key>installer_item_size</key>
-	<integer>1501228</integer>
+	<integer>1431369</integer>
 	<key>minimum_os_version</key>
 	<string>10.9</string>
 	<key>name</key>
-	<string>MAContent10_GarageBandCoreContent</string>
+	<string>MAContent10_GB_StereoDrumKitsSongWriter</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1969600</integer>
+			<integer>2166949</integer>
 			<key>packageid</key>
-			<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsSongWriter</string>
 			<key>version</key>
 			<string>2.0.0.0.1.1256150330</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>update_for</key>
 	<array>
-		<string>GarageBand-10.0.2</string>
+		<string>GarageBand-10.0.3</string>
 	</array>
 	<key>version</key>
 	<string>2.0.0.0.1.1256150330</string>
