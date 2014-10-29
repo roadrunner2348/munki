@@ -60,6 +60,12 @@
 	</dict>
 	<key>autoremove</key>
 	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
