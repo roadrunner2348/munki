@@ -37,5 +37,13 @@
 		<string>SketchUp</string>
 		<string>SmartboardNB</string>
 	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>MAContent10_GarageBandPremiumContent</string>
+		<string>MAContent10_GB_StereoDrumKitsAlternative</string>
+		<string>MAContent10_GB_StereoDrumKitsRnB</string>
+		<string>MAContent10_GB_StereoDrumKitsRock</string>
+		<string>MAContent10_GB_StereoDrumKitsSongWriter</string>
+	</array>
 </dict>
 </plist>
