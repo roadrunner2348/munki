@@ -46,9 +46,7 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>update_for</key>
-	<array>
-		<string>GarageBand-10.0.2</string>
-	</array>
+	<array/>
 	<key>version</key>
 	<string>1.0.0.0.1.1256150330</string>
 </dict>

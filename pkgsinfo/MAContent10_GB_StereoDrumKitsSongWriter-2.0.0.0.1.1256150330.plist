@@ -46,14 +46,16 @@
 			<string>2.0.0.0.1.1256150330</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand-10.0.3</string>
+	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>update_for</key>
-	<array>
-		<string>GarageBand-10.0.3</string>
-	</array>
+	<array/>
 	<key>version</key>
 	<string>2.0.0.0.1.1256150330</string>
 </dict>
