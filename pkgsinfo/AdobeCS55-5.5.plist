@@ -91,10 +91,58 @@
 	<key>installs</key>
 	<array>
 		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.illustrator</string>
+			<key>CFBundleName</key>
+			<string>Illustrator</string>
+			<key>CFBundleShortVersionString</key>
+			<string>39</string>
+			<key>CFBundleVersion</key>
+			<string>15.1.0</string>
+			<key>minosversion</key>
+			<string>10.4.6</string>
 			<key>path</key>
-			<string>/Library/Application Support/Adobe/Uninstall/{78E6AED6-9091-425A-A2F6-47D15A2D845D}.db</string>
+			<string>/Applications/Adobe Illustrator CS5.1/Adobe Illustrator.app</string>
 			<key>type</key>
-			<string>file</string>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.InDesign</string>
+			<key>CFBundleName</key>
+			<string>InDesign</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.5.3.333</string>
+			<key>CFBundleVersion</key>
+			<string>7530</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/Adobe InDesign CS5.5/Adobe InDesign CS5.5.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.Photoshop</string>
+			<key>CFBundleName</key>
+			<string>Photoshop</string>
+			<key>CFBundleShortVersionString</key>
+			<string>12.1</string>
+			<key>CFBundleVersion</key>
+			<string>12.1x20110328.r.145) (12.1</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/Adobe Photoshop CS5.1/Adobe Photoshop CS5.1.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
