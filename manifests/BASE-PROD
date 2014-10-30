@@ -28,5 +28,9 @@
 		<string>Pages</string>
 		<string>Silverlight</string>
 	</array>
+	<key>managed_updates</key>
+	<array>
+		<string>Skype</string>
+	</array>
 </dict>
 </plist>
