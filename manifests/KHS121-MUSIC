@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>included_manifests</key>
+	<array>
+		<string>BASE-PROD</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>MAContent10_GarageBandPremiumContent</string>
+		<string>MAContent10_GB_StereoDrumKitsAlternative</string>
+		<string>MAContent10_GB_StereoDrumKitsRnB</string>
+		<string>MAContent10_GB_StereoDrumKitsRock</string>
+		<string>MAContent10_GB_StereoDrumKitsSongWriter</string>
+	</array>
+</dict>
+</plist>
