@@ -2,14 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2014-10-29T15:03:57Z</date>
+		<date>2014-10-29T20:58:58Z</date>
 		<key>munki_version</key>
-		<string>1.0.0.1864</string>
+		<string>2.0.1.2253</string>
 		<key>os_version</key>
 		<string>10.10</string>
 	</dict>
@@ -17,47 +19,40 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
-		<string>production</string>
+		<string>development</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>launchd configuration files for use by Managed Software Center.</string>
 	<key>display_name</key>
-	<string>Garageband R&amp;B Drum Kit</string>
+	<string>Managed Software Center launchd files</string>
 	<key>installed_size</key>
-	<integer>995268</integer>
+	<integer>9</integer>
 	<key>installer_item_hash</key>
-	<string>2d78bf776366d41550d34a30b7b7673c914ff740495ddf74d12e76fdddcab71e</string>
+	<string>e15d6a5539ac30ec7c495e1d6d5c80e15bc115db17f1af00a74d69b3624ef143</string>
 	<key>installer_item_location</key>
-	<string>MAContent10_GB_StereoDrumKitsRnB-2.0.0.0.1.1256150330.pkg</string>
+	<string>munkitools/munkitools_launchd-2.0.0.1969.pkg</string>
 	<key>installer_item_size</key>
-	<integer>988636</integer>
+	<integer>4</integer>
 	<key>minimum_os_version</key>
-	<string>10.9</string>
+	<string>10.5.0</string>
 	<key>name</key>
-	<string>MAContent10_GB_StereoDrumKitsRnB</string>
+	<string>munkitools_launchd</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1531183</integer>
+			<integer>9</integer>
 			<key>packageid</key>
-			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsRnB</string>
+			<string>com.googlecode.munki.launchd</string>
 			<key>version</key>
-			<string>2.0.0.0.1.1256150330</string>
+			<string>2.0.0.1969</string>
 		</dict>
-	</array>
-	<key>requires</key>
-	<array>
-		<string>GarageBand-10.0.3</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>update_for</key>
-	<array/>
 	<key>version</key>
-	<string>2.0.0.0.1.1256150330</string>
+	<string>2.0.0.1969</string>
 </dict>
 </plist>
