@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-11-11T20:30:44Z</date>
+		<key>munki_version</key>
+		<string>2.0.1.2253</string>
+		<key>os_version</key>
+		<string>10.10</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+	<key>display_name</key>
+	<string>Adobe Flash Player</string>
+	<key>installed_size</key>
+	<integer>16064</integer>
+	<key>installer_item_hash</key>
+	<string>9b794e6c3216e0b1109453057860d81f1de49ffebd79f24ec0a3e8ac6e817a5e</string>
+	<key>installer_item_location</key>
+	<string>internet_plugins/Adobe_Flash_Player-15.0.0.223.dmg</string>
+	<key>installer_item_size</key>
+	<integer>15270</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe_Flash_Player</string>
+	<key>package_path</key>
+	<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>16064</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.FlashPlayer</string>
+			<key>version</key>
+			<string>15.0.0.223</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>15.0.0.223</string>
+</dict>
+</plist>
