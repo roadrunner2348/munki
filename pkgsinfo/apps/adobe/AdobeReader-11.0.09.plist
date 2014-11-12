@@ -17,8 +17,8 @@
 	<false/>
 	<key>blocking_applications</key>
 	<array>
-		<string>Adobe Reader.app</string>
 		<string>Adobe Acrobat Pro.app</string>
+		<string>Adobe Reader.app</string>
 	</array>
 	<key>catalogs</key>
 	<array>

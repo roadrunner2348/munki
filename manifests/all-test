@@ -9,9 +9,9 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Adobe_Flash_Player</string>
-		<string>Adobe_Reader</string>
 		<string>Adobe_Shockwave</string>
 		<string>AdobeAIR</string>
+		<string>AdobeReader</string>
 		<string>Chrome</string>
 		<string>Evernote</string>
 		<string>Firefox</string>
