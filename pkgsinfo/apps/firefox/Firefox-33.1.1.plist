@@ -7,47 +7,45 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2014-10-21T15:12:47Z</date>
+		<date>2014-11-19T14:49:07Z</date>
 		<key>munki_version</key>
-		<string>1.0.0.1864</string>
+		<string>2.0.1.2253</string>
 		<key>os_version</key>
-		<string>10.10</string>
+		<string>10.10.1</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>pilot</string>
-		<string>production</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>Mozilla Firefox is a free and open source web browser.</string>
 	<key>display_name</key>
-	<string>iBooks Author</string>
+	<string>Mozilla Firefox</string>
 	<key>installer_item_hash</key>
-	<string>323a42f7dad27dcffa632c4fe7a43525d8ee9a8853fab1be766c19ba819417a8</string>
+	<string>5b3f4ff3de95399ba697dd42ac86a77f2eaeb00ee3461cd6bf500d170d949c5b</string>
 	<key>installer_item_location</key>
-	<string>iBooks Author-2.2.dmg</string>
+	<string>apps/firefox/Firefox-33.1.1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>423005</integer>
+	<integer>65816</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.iBooksAuthor</string>
+			<string>org.mozilla.firefox</string>
 			<key>CFBundleName</key>
-			<string>iBooks Author</string>
+			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>2.2</string>
+			<string>33.1.1</string>
 			<key>CFBundleVersion</key>
-			<string>652</string>
+			<string>3314.11.13</string>
 			<key>minosversion</key>
-			<string>10.9</string>
+			<string>10.6</string>
 			<key>path</key>
-			<string>/Applications/iBooks Author.app</string>
+			<string>/Applications/Firefox.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -60,18 +58,20 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>iBooks Author.app</string>
+			<string>Firefox.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.9</string>
+	<string>10.6</string>
 	<key>name</key>
-	<string>iBooks Author</string>
+	<string>Firefox</string>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>2.2</string>
+	<string>33.1.1</string>
 </dict>
 </plist>
