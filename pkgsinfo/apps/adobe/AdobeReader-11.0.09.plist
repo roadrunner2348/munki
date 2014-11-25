@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-11-25T14:51:24Z</date>
+		<key>munki_version</key>
+		<string>2.0.1.2253</string>
+		<key>os_version</key>
+		<string>10.10.1</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Adobe Reader.app</string>
+		<string>Adobe Acrobat Pro.app</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+	<key>display_name</key>
+	<string>Adobe Reader</string>
+	<key>installed_size</key>
+	<integer>414943</integer>
+	<key>installer_item_hash</key>
+	<string>259957f1434bcdf47dc6a7c12affc40dd3c17288009dc229aa51f20ec4e8b1c5</string>
+	<key>installer_item_location</key>
+	<string>apps/Adobe/AdobeReader-11.0.09.dmg</string>
+	<key>installer_item_size</key>
+	<integer>105027</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.Reader</string>
+			<key>CFBundleName</key>
+			<string>Adobe Reader</string>
+			<key>CFBundleShortVersionString</key>
+			<string>11.0.09</string>
+			<key>CFBundleVersion</key>
+			<string>11.0.09</string>
+			<key>minosversion</key>
+			<string>10.4.3</string>
+			<key>path</key>
+			<string>/Applications/Adobe Reader.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.4</string>
+	<key>name</key>
+	<string>AdobeReader</string>
+	<key>preinstall_script</key>
+	<string>#!/bin/sh
+if [ -e "/Applications/Adobe Reader.app" ]; then
+rm -r "/Applications/Adobe Reader.app"
+fi
+exit 0
+            </string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>405567</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11009.reader.app.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.09</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1148</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11009.reader.browser.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.09</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>8228</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.reader.11009.reader.appsupport.pkg.en_US</string>
+			<key>version</key>
+			<string>11.0.09</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>11.0.09</string>
+</dict>
+</plist>
