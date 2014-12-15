@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2014-12-09T17:27:34Z</date>
+		<key>munki_version</key>
+		<string>2.0.1.2253</string>
+		<key>os_version</key>
+		<string>10.10.1</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Adobe Acrobat Pro.app</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Acrobat Pro Update</string>
+	<key>installed_size</key>
+	<integer>139184</integer>
+	<key>installer_item_hash</key>
+	<string>6d274335b17ed9ef0e505c9f9cdf276966fb2c6c78dc7d13e6590304a3c6870a</string>
+	<key>installer_item_location</key>
+	<string>apps/AcrobatPro/AcrobatUpd10113-10.1.13.pkg</string>
+	<key>installer_item_size</key>
+	<integer>141342</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>AdobeAcrobatProX_Update</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>139184</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.a10.AcrobatUpd10113</string>
+			<key>version</key>
+			<string>10.1.13</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>AdobeAcrobatProX</string>
+	</array>
+	<key>version</key>
+	<string>10.1.13</string>
+</dict>
+</plist>
