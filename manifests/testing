@@ -29,7 +29,6 @@
 		<string>MAContent10_GarageBandCoreContent</string>
 		<string>Microsoft_Office_2011</string>
 		<string>MS2011_Lic_Fix</string>
-		<string>munkitools</string>
 		<string>Numbers</string>
 		<string>Office_2011_Update</string>
 		<string>Pages</string>
@@ -46,6 +45,7 @@
 		<string>MAContent10_GB_StereoDrumKitsRnB</string>
 		<string>MAContent10_GB_StereoDrumKitsRock</string>
 		<string>MAContent10_GB_StereoDrumKitsSongWriter</string>
+		<string>munkitools-2.0.1.2253</string>
 	</array>
 </dict>
 </plist>
