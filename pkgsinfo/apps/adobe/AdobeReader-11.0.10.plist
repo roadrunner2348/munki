@@ -17,8 +17,8 @@
 	<false/>
 	<key>blocking_applications</key>
 	<array>
-		<string>Adobe Reader.app</string>
 		<string>Adobe Acrobat Pro.app</string>
+		<string>Adobe Reader.app</string>
 	</array>
 	<key>catalogs</key>
 	<array>
@@ -33,7 +33,7 @@
 	<key>installer_item_hash</key>
 	<string>6aeb93bdd0da7662721e8a81493aef8bd5610d7386ac359bb35f089fbe0ee391</string>
 	<key>installer_item_location</key>
-	<string>apps/Adobe/AdobeReader-11.0.10.dmg</string>
+	<string>apps/adobe/AdobeReader-11.0.10.dmg</string>
 	<key>installer_item_size</key>
 	<integer>104870</integer>
 	<key>installs</key>
