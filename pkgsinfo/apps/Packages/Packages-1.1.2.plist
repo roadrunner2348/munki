@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-11T20:14:01Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+	</array>
+	<key>category</key>
+	<string>Management Tools</string>
+	<key>description</key>
+	<string>Whenever you need to create an installation package or distribution for Mac OS X 10.5 or later, Packages is the powerful and flexible solution you're looking for.</string>
+	<key>display_name</key>
+	<string>Packages</string>
+	<key>installed_size</key>
+	<integer>10932</integer>
+	<key>installer_item_hash</key>
+	<string>8fa1aff087b5f82cbbec557a01a65998c4ca244925f778e559038fc82d9ab23d</string>
+	<key>installer_item_location</key>
+	<string>apps/Packages/Packages-1.1.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4947</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>fr.whitebox.Packages</string>
+			<key>CFBundleName</key>
+			<string>Packages</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.1.2</string>
+			<key>CFBundleVersion</key>
+			<string>2B104</string>
+			<key>minosversion</key>
+			<string>10.4</string>
+			<key>path</key>
+			<string>/Applications/Packages.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>9e28ba12239641a0f60e56b12c97277b</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/packages_builder</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>64d6879caa5933d001c28dcf1b6c0be5</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/packages_dispatcher</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Locators/JavaScript.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Locators/Standard.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/CPU.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/Disk Space.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/Files.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/JavaScript.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/OS.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/RAM.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Library/PrivilegedHelperTools/fr.whitebox.packages/Requirements/Scripts.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>e623fc4d4c05970e46d4af98b1c49f5d</string>
+			<key>path</key>
+			<string>/usr/local/bin/packagesbuild</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>e367c095cc718435789048b2c93dd25f</string>
+			<key>path</key>
+			<string>/usr/local/bin/packagesutil</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.5</string>
+	<key>name</key>
+	<string>Packages</string>
+	<key>package_path</key>
+	<string>packages/Packages.pkg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>10932</integer>
+			<key>packageid</key>
+			<string>fr.whitebox.pkg.Packages</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+
+## Uninstall script taken from the original Packages disk image with
+## sudo calls removed since this script is already running as root.
+## Original script can be found in Extras/uninstall.sh
+
+## Remove application
+/bin/rm -r /Applications/Packages.app
+
+## stop and unload dispatcher
+/bin/launchctl unload /Library/LaunchDaemons/fr.whitebox.packages_dispatcher.plist
+
+## remove launchdaemons
+/bin/rm /Library/LaunchDaemons/fr.whitebox.packages_dispatcher.plist
+
+## Remove Priviledged tools
+/bin/rm -r /Library/PrivilegedHelperTools/fr.whitebox.packages
+
+## Remove Application Support files
+/bin/rm -r /Library/Application\ Support/fr.whitebox.packages
+
+## Remove tools
+/bin/rm /usr/local/bin/goldin_64
+/bin/rm /usr/local/bin/packagesbuild
+/bin/rm /usr/local/bin/packagesutil
+
+## Forget we ever got installed
+/usr/sbin/pkgutil --forget fr.whitebox.pkg.Packages
+
+exit 0
+</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1.2</string>
+</dict>
+</plist>

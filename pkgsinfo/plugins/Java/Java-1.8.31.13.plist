@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-02-26T18:22:33Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+	<key>display_name</key>
+	<string>Oracle Java 8</string>
+	<key>installed_size</key>
+	<integer>162024</integer>
+	<key>installer_item_hash</key>
+	<string>6afc944beac704b71d4bfd277f2af50b2bcd99231ad24876f13e10c1d1f9e913</string>
+	<key>installer_item_location</key>
+	<string>plugins/Java/Java-1.8.31.13.dmg</string>
+	<key>installer_item_size</key>
+	<integer>58148</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>1.8.0_31</string>
+			<key>CFBundleVersion</key>
+			<string>11.31.2.13</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.3</string>
+	<key>name</key>
+	<string>Java</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>162024</integer>
+			<key>packageid</key>
+			<string>com.oracle.jre</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.8.31.13</string>
+</dict>
+</plist>

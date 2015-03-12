@@ -25,6 +25,8 @@
 	<string></string>
 	<key>display_name</key>
 	<string>Office 2011 14.4.4 Update</string>
+	<key>icon_name</key>
+	<string>Microsoft_Office_2011.png</string>
 	<key>installed_size</key>
 	<integer>337303</integer>
 	<key>installer_item_hash</key>
