@@ -18,6 +18,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>pilot</string>
 	</array>
 	<key>description</key>
 	<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
