@@ -17,11 +17,17 @@
 	<key>optional_installs</key>
 	<array>
 		<string>CoRD</string>
+		<string>GIMP</string>
 		<string>LibreOffice</string>
 		<string>MunkiAdmin</string>
 		<string>Opera</string>
 		<string>Packages</string>
+		<string>QR_Journal</string>
 		<string>Recon</string>
+		<string>SketchUp</string>
+		<string>Spotify</string>
+		<string>TextWrangler</string>
+		<string>VLC</string>
 	</array>
 </dict>
 </plist>
