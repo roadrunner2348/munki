@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-13T16:09:28Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
+	<key>display_name</key>
+	<string>TextWrangler</string>
+	<key>installer_item_hash</key>
+	<string>f25ce90a54570ee4fe2287cdbe5c8b2a57188423a3693becacfa0533f02e0aa2</string>
+	<key>installer_item_location</key>
+	<string>apps/TextWrangler/TextWrangler-4.5.12.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9656</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.barebones.textwrangler</string>
+			<key>CFBundleName</key>
+			<string>TextWrangler</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.5.12</string>
+			<key>CFBundleVersion</key>
+			<string>3398</string>
+			<key>minosversion</key>
+			<string>10.6.8</string>
+			<key>path</key>
+			<string>/Applications/TextWrangler.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>TextWrangler.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.8</string>
+	<key>name</key>
+	<string>TextWrangler</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+# Copy command-line tool resources out of .app bundle
+CMD_TOOL_DIR=/usr/local/bin
+CMD_MAN_DIR=/usr/local/share/man/man1
+HELPER_BIN_SRC_DIR=/Applications/TextWrangler.app/Contents/Helpers
+HELPER_MAN_SRC_DIR=/Applications/TextWrangler.app/Contents/Resources
+LN=/bin/ln
+
+# create dirs if they don't already exist
+for DIR in "$CMD_TOOL_DIR" "$CMD_MAN_DIR"; do
+    [ -d "$DIR" ] || mkdir -p -m 775 "$DIR"
+done
+# make symlinks to binaries and manpages
+for TOOL in edit twdiff twfind; do
+    "$LN" -sf "$HELPER_BIN_SRC_DIR/$TOOL" "$CMD_TOOL_DIR/$TOOL"
+    "$LN" -sf "$HELPER_MAN_SRC_DIR/$TOOL.1" "$CMD_MAN_DIR/$TOOL.1"
+done
+            </string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.5.12</string>
+</dict>
+</plist>
