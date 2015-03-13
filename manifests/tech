@@ -16,7 +16,12 @@
 	<array/>
 	<key>optional_installs</key>
 	<array>
+		<string>CoRD</string>
+		<string>LibreOffice</string>
+		<string>MunkiAdmin</string>
+		<string>Opera</string>
 		<string>Packages</string>
+		<string>Recon</string>
 	</array>
 </dict>
 </plist>

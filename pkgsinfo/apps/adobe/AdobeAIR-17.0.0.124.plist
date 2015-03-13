@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-13T16:08:14Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+	<key>display_name</key>
+	<string>Adobe® Integrated Runtime</string>
+	<key>installed_size</key>
+	<integer>119783</integer>
+	<key>installer_item_hash</key>
+	<string>88de07ba93db965bb6a777bf2a3a7aa295b6fad109237fe620229c20c193ba89</string>
+	<key>installer_item_location</key>
+	<string>apps/adobe/AdobeAIR-17.0.0.124.pkg</string>
+	<key>installer_item_size</key>
+	<integer>52884</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>AdobeAIR</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>119783</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.AIR</string>
+			<key>version</key>
+			<string>17.0.0.124</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>17.0.0.124</string>
+</dict>
+</plist>

@@ -7,7 +7,6 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Adobe_Flash_Player</string>
-		<string>Adobe_Shockwave</string>
 		<string>Chrome</string>
 		<string>Firefox</string>
 		<string>GarageBand</string>

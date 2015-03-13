@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-13T16:00:24Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
+	<key>display_name</key>
+	<string>Opera</string>
+	<key>installer_item_hash</key>
+	<string>8f5e7e6e1b8ba466e05b228aed5acc791b93308b0fc47c76653eb124da4d646f</string>
+	<key>installer_item_location</key>
+	<string>apps/Opera/Opera-28.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>54138</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.operasoftware.Opera</string>
+			<key>CFBundleName</key>
+			<string>Opera</string>
+			<key>CFBundleShortVersionString</key>
+			<string>28.0</string>
+			<key>CFBundleVersion</key>
+			<string>28.0.1750.40</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
+			<key>path</key>
+			<string>/Applications/Opera.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Opera.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>Opera</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>28.0</string>
+</dict>
+</plist>

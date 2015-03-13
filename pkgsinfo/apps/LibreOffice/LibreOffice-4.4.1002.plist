@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-13T15:58:32Z</date>
+		<key>munki_version</key>
+		<string>2.1.1.2352</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.</string>
+	<key>display_name</key>
+	<string>LibreOffice</string>
+	<key>installer_item_hash</key>
+	<string>0bb9e740ea0bcb40402c64ee0b8c37c35fdf56997e2bf7d926b8a58640af07ab</string>
+	<key>installer_item_location</key>
+	<string>apps/LibreOffice/LibreOffice_4.4.1_MacOS_x86-64-4.4.1002.dmg</string>
+	<key>installer_item_size</key>
+	<integer>196675</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.libreoffice.script</string>
+			<key>CFBundleName</key>
+			<string>LibreOffice</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.4.1002</string>
+			<key>minosversion</key>
+			<string>10.8.0</string>
+			<key>path</key>
+			<string>/Applications/LibreOffice.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>LibreOffice.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.8.0</string>
+	<key>name</key>
+	<string>LibreOffice</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.4.1002</string>
+</dict>
+</plist>
