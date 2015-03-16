@@ -20,6 +20,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>pilot</string>
 	</array>
 	<key>category</key>
 	<string></string>
@@ -29,6 +30,8 @@
 	<string></string>
 	<key>display_name</key>
 	<string>Munki - Managed software installation for OS X</string>
+	<key>force_install_after_date</key>
+	<date>2015-04-22T12:00:00Z</date>
 	<key>installed_size</key>
 	<integer>4869</integer>
 	<key>installer_item_hash</key>
@@ -38,7 +41,7 @@
 	<key>installer_item_size</key>
 	<integer>3097</integer>
 	<key>minimum_os_version</key>
-	<string>10.5.0</string>
+	<string>10.10</string>
 	<key>name</key>
 	<string>munkitools</string>
 	<key>receipts</key>
