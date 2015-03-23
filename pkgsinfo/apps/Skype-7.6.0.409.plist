@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-03-18T16:09:35Z</date>
+		<key>munki_version</key>
+		<string>2.2.3.2418</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+	<key>display_name</key>
+	<string>Skype</string>
+	<key>installer_item_hash</key>
+	<string>d02cadc691cc6fd2175c0cef72007668157a8d3efa4c049dbd5c3a79f148b0fb</string>
+	<key>installer_item_location</key>
+	<string>apps/Skype-7.6.0.409.dmg</string>
+	<key>installer_item_size</key>
+	<integer>37749</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.skype.skype</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.6</string>
+			<key>CFBundleVersion</key>
+			<string>7.6.0.409</string>
+			<key>minosversion</key>
+			<string>10.9</string>
+			<key>path</key>
+			<string>/Applications/Skype.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Skype.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.9</string>
+	<key>name</key>
+	<string>Skype</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.6.0.409</string>
+</dict>
+</plist>

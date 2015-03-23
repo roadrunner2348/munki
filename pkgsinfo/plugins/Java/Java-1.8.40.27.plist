@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2015-03-16T17:34:24Z</date>
+		<date>2015-03-17T12:02:57Z</date>
 		<key>munki_version</key>
 		<string>2.1.1.2352</string>
 		<key>os_version</key>
@@ -33,18 +33,18 @@
 	<key>installed_size</key>
 	<integer>164184</integer>
 	<key>installer_item_hash</key>
-	<string>eae51a86f49d26bf2e4487c613a19c74d6314de3a5e124bc4f62cb7b5c3aba45</string>
+	<string>d053fe21b5efd755c437aebcf204e1ea32500f00b3a4627e4db86e2eb35d5fa2</string>
 	<key>installer_item_location</key>
-	<string>plugins/Java/Java-1.8.40.26.dmg</string>
+	<string>plugins/Java/JavaAppletPlugin-1.8.40.27.pkg</string>
 	<key>installer_item_size</key>
-	<integer>59072</integer>
+	<integer>59309</integer>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleShortVersionString</key>
 			<string>1.8.0_40</string>
 			<key>CFBundleVersion</key>
-			<string>11.40.2.26</string>
+			<string>11.40.2.27</string>
 			<key>path</key>
 			<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
 			<key>type</key>
@@ -81,6 +81,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>1.8.40.26</string>
+	<string>1.8.40.27</string>
 </dict>
 </plist>
