@@ -19,7 +19,6 @@
 	<array>
 		<string>testing</string>
 		<string>production</string>
-		<string>pilot</string>
 	</array>
 	<key>description</key>
 	<string></string>

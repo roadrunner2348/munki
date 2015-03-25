@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2015-03-18T18:13:29Z</date>
+		<date>2015-03-23T17:11:02Z</date>
 		<key>munki_version</key>
 		<string>2.2.3.2418</string>
 		<key>os_version</key>
@@ -18,18 +18,17 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>pilot</string>
 	</array>
 	<key>description</key>
 	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>678baba07d173d12588372d75b0b9f7c6dc26c30c068c2d77a25bb6121e76bed</string>
+	<string>bcfb3d27489f7c42be953eaa59331f8db6da76e786968ae8810900d422b58e8b</string>
 	<key>installer_item_location</key>
-	<string>apps/Chrome-41.0.2272.101.dmg</string>
+	<string>apps/Chrome-41.0.2272.104.dmg</string>
 	<key>installer_item_size</key>
-	<integer>66582</integer>
+	<integer>66587</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -40,9 +39,9 @@
 			<key>CFBundleName</key>
 			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>41.0.2272.101</string>
+			<string>41.0.2272.104</string>
 			<key>CFBundleVersion</key>
-			<string>2272.101</string>
+			<string>2272.104</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
@@ -73,6 +72,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>41.0.2272.101</string>
+	<string>41.0.2272.104</string>
 </dict>
 </plist>
