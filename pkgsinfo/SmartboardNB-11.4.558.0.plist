@@ -33,6 +33,8 @@
 	<string>SBNotebook-11.4-11.4.558.0.pkg</string>
 	<key>installer_item_size</key>
 	<integer>548164</integer>
+	<key>maximum_os_version</key>
+	<string>10.9</string>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
