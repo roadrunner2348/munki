@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-04-02T15:54:24Z</date>
+		<key>munki_version</key>
+		<string>2.2.3.2418</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>development</string>
+		<string>pilot</string>
+	</array>
+	<key>category</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string></string>
+	<key>display_name</key>
+	<string>SophosEnterprise-9.24</string>
+	<key>icon_hash</key>
+	<string>a978b24ba1c94a136459db631f82a00a21f45cb86a5c9ca2fd33d6c7af974f91</string>
+	<key>icon_name</key>
+	<string>SophosEnterprise.png</string>
+	<key>installed_size</key>
+	<integer>150764</integer>
+	<key>installer_item_hash</key>
+	<string>3ef50e3cc90e6ff6dc4ee0ba2a57e69ce44ed32366f4147e1eb8459c77163c3d</string>
+	<key>installer_item_location</key>
+	<string>SophosEnterprise-9.24.dmg</string>
+	<key>installer_item_size</key>
+	<integer>142106</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
+			<key>CFBundleName</key>
+			<string>Sophos Anti-Virus</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.2.4</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>path</key>
+			<string>/Applications/Sophos Anti-Virus.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SophosEnterprise</string>
+	<key>receipts</key>
+	<array/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.24</string>
+</dict>
+</plist>

@@ -11,7 +11,9 @@
 		<string>BASE-PROD</string>
 	</array>
 	<key>managed_installs</key>
-	<array/>
+	<array>
+		<string>SophosEnterprise</string>
+	</array>
 	<key>managed_uninstalls</key>
 	<array/>
 	<key>optional_installs</key>
