@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-04-14T17:12:43Z</date>
+		<key>munki_version</key>
+		<string>2.2.3.2418</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+		<string>Google Chrome</string>
+		<string>Safari</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+	<key>display_name</key>
+	<string>Adobe Flash Player</string>
+	<key>force_install_after_date</key>
+	<date>2015-04-22T08:00:00Z</date>
+	<key>installed_size</key>
+	<integer>16088</integer>
+	<key>installer_item_hash</key>
+	<string>fd13ea86fc1ec95f8ffc750fc28aff1d2fd6f340bbba1d00f895b2f787ccadc6</string>
+	<key>installer_item_location</key>
+	<string>internet_plugins/Adobe_Flash_Player-17.0.0.169.dmg</string>
+	<key>installer_item_size</key>
+	<integer>15284</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe_Flash_Player</string>
+	<key>package_path</key>
+	<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>16088</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.FlashPlayer</string>
+			<key>version</key>
+			<string>17.0.0.169</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>17.0.0.169</string>
+</dict>
+</plist>

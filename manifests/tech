@@ -18,6 +18,7 @@
 	<array/>
 	<key>optional_installs</key>
 	<array>
+		<string>AddPrinter-BMS_RM412_HP</string>
 		<string>CoRD</string>
 		<string>GIMP</string>
 		<string>LibreOffice</string>

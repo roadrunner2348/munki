@@ -7,46 +7,45 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2015-04-01T13:00:43Z</date>
+		<date>2015-05-14T13:04:00Z</date>
 		<key>munki_version</key>
 		<string>2.2.3.2418</string>
 		<key>os_version</key>
-		<string>10.10.2</string>
+		<string>10.10.3</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>production</string>
 	</array>
 	<key>description</key>
-	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+	<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 	<key>display_name</key>
-	<string>Google Chrome</string>
+	<string>Spotify</string>
 	<key>installer_item_hash</key>
-	<string>d95bfc450516432a5bf0018ecc4fe1e7481756c6f803442dd5529bee280c8783</string>
+	<string>f65aa25b566557b478fcc88e57e6729da9dfaf1d04447438d99b05889d857f56</string>
 	<key>installer_item_location</key>
-	<string>apps/Chrome-41.0.2272.118.dmg</string>
+	<string>apps/Spotify-1.0.4.89.g22b04e33.dmg</string>
 	<key>installer_item_size</key>
-	<integer>66584</integer>
+	<integer>53300</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.google.Chrome</string>
+			<string>com.spotify.client</string>
 			<key>CFBundleName</key>
-			<string>Chrome</string>
+			<string>Spotify</string>
 			<key>CFBundleShortVersionString</key>
-			<string>41.0.2272.118</string>
+			<string>1.0.4.89.g22b04e33</string>
 			<key>CFBundleVersion</key>
-			<string>2272.118</string>
+			<string>1.0.4.89.g22b04e33-11</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Google Chrome.app</string>
+			<string>/Applications/Spotify.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -59,13 +58,13 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Google Chrome.app</string>
+			<string>Spotify.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
 	<string>10.6.0</string>
 	<key>name</key>
-	<string>Chrome</string>
+	<string>Spotify</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
@@ -73,6 +72,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>41.0.2272.118</string>
+	<string>1.0.4.89.g22b04e33</string>
 </dict>
 </plist>

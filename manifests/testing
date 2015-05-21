@@ -40,6 +40,7 @@
 	</array>
 	<key>optional_installs</key>
 	<array>
+		<string>AddPrinter-BMS_RM412_HP</string>
 		<string>MAContent10_GarageBandPremiumContent</string>
 		<string>MAContent10_GB_StereoDrumKitsAlternative</string>
 		<string>MAContent10_GB_StereoDrumKitsRnB</string>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jwolf</string>
+		<key>creation_date</key>
+		<date>2015-05-14T13:00:33Z</date>
+		<key>munki_version</key>
+		<string>2.2.3.2418</string>
+		<key>os_version</key>
+		<string>10.10.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+	<key>display_name</key>
+	<string>Microsoft Silverlight</string>
+	<key>installed_size</key>
+	<integer>99420</integer>
+	<key>installer_item_hash</key>
+	<string>800aae783b6a261d78a312b91bdaa827bc8e181739f4186007d124e918f30c9e</string>
+	<key>installer_item_location</key>
+	<string>apps/Silverlight-5.1.40416.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>14884</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Silverlight</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Silverlight.pkg</string>
+			<key>installed_size</key>
+			<integer>99420</integer>
+			<key>packageid</key>
+			<string>com.microsoft.SilverlightInstaller</string>
+			<key>version</key>
+			<string>5.1.40416.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.1.40416.0</string>
+</dict>
+</plist>
