@@ -65,7 +65,7 @@ cmd = [ '/usr/sbin/lpadmin',
         '-L', 'Tech Office',
         '-D', 'BMS Room 412 HP Printer',
         '-v', 'ipp://bms-ps-01/printers/BMS_RM412_HP',
-        '-P', '/Library/Printers/PPDs/Contents/Resources/HP LaserJet P3005.gz',
+        '-P', '/Library/Printers/PPDs/Contents/Resources/HP LaserJet P3010 Series.gz',
         '-E',
         '-o', 'printer-is-shared=false',
         '-o', 'printer-error-policy=abort-job' ]
