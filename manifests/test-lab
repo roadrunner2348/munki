@@ -8,6 +8,7 @@
 	</array>
 	<key>optional_installs</key>
 	<array>
+		<string>AddPrinter-BMS_RM138_HP</string>
 		<string>AddPrinter-BMS_RM412_HP</string>
 	</array>
 </dict>
