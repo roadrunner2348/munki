@@ -26,6 +26,16 @@
 	<array>
 		<string>AddPrinter-BMS_RM138_HP</string>
 		<string>AddPrinter-BMS_RM412_HP</string>
+		<string>Evernote</string>
+		<string>GIMP</string>
+		<string>MunkiAdmin</string>
+		<string>Opera</string>
+		<string>QR_Journal</string>
+		<string>Recon</string>
+		<string>SketchUp</string>
+		<string>Skype</string>
+		<string>TextWrangler</string>
+		<string>VLC</string>
 	</array>
 </dict>
 </plist>
