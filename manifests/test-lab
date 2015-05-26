@@ -11,6 +11,7 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Adobe_Flash_Player</string>
+		<string>AdobeCS55</string>
 		<string>AdobeReader</string>
 		<string>Chrome</string>
 		<string>Evernote</string>
@@ -20,7 +21,6 @@
 		<string>LibreOffice</string>
 		<string>Microsoft_Office_2011</string>
 		<string>Office_2011_Update</string>
-		<string>SophosEnterprise</string>
 	</array>
 	<key>optional_installs</key>
 	<array>
