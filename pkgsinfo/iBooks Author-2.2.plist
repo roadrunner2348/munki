@@ -21,8 +21,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Education</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Apple</string>
 	<key>display_name</key>
 	<string>iBooks Author</string>
 	<key>installer_item_hash</key>

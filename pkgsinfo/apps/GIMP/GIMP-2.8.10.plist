@@ -25,8 +25,12 @@
 		<string>testing</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Video, Photos, &amp; Graphics</string>
 	<key>description</key>
 	<string>GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages.</string>
+	<key>developer</key>
+	<string>GIMP</string>
 	<key>display_name</key>
 	<string>GIMP</string>
 	<key>installer_item_hash</key>

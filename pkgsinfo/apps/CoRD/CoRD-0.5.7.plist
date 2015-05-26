@@ -20,8 +20,12 @@
 		<string>testing</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Management Tools</string>
 	<key>description</key>
 	<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol.</string>
+	<key>developer</key>
+	<string>CoRD</string>
 	<key>display_name</key>
 	<string>CoRD</string>
 	<key>installer_item_hash</key>

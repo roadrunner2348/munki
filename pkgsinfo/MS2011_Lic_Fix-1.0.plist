@@ -10,8 +10,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Troubleshooting</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Keansburg School District</string>
 	<key>display_name</key>
 	<string>Microsoft Office 2011 License Update</string>
 	<key>installed_size</key>

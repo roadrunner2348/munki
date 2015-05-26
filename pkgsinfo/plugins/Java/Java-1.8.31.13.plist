@@ -27,8 +27,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+	<key>developer</key>
+	<string>Oracle</string>
 	<key>display_name</key>
 	<string>Oracle Java 8</string>
 	<key>installed_size</key>

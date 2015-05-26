@@ -48,12 +48,16 @@
 		<string>testing</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>description</key>
 	<string>&lt;html&gt;&lt;p&gt;This update fixes critical issues and also helps to improve security. It includes fixes for vulnerabilities that an attacker can use to overwrite the contents of your computer's memory with malicious code.&lt;/p&gt;
 
 &lt;p&gt;For detailed information about this update, please visit the following Web site: &lt;a href="http://go.microsoft.com/fwlink/?LinkId=511102" target="_blank"&gt;http://go.microsoft.com/fwlink/?LinkId=511102&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</string>
+	<key>developer</key>
+	<string>Microsoft</string>
 	<key>display_name</key>
 	<string>Office 2011 14.4.5 Update</string>
 	<key>icon_name</key>

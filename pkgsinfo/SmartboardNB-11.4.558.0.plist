@@ -21,8 +21,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Education</string>
 	<key>description</key>
 	<string>Smartboard Notebook Software and Tools</string>
+	<key>developer</key>
+	<string>Smart Tech</string>
 	<key>display_name</key>
 	<string>SmartBoard Tools</string>
 	<key>installed_size</key>

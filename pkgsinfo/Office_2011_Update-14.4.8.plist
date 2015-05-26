@@ -21,11 +21,11 @@
 		<string>pilot</string>
 	</array>
 	<key>category</key>
-	<string></string>
+	<string>Productivity</string>
 	<key>description</key>
 	<string></string>
 	<key>developer</key>
-	<string></string>
+	<string>Microsoft</string>
 	<key>display_name</key>
 	<string>Office 2011 14.4.8 Update</string>
 	<key>icon_name</key>

@@ -21,8 +21,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Microsoft</string>
 	<key>display_name</key>
 	<string>Office 2011 14.4.4 Update</string>
 	<key>icon_name</key>

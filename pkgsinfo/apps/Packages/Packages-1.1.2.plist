@@ -24,6 +24,8 @@
 	<string>Management Tools</string>
 	<key>description</key>
 	<string>Whenever you need to create an installation package or distribution for Mac OS X 10.5 or later, Packages is the powerful and flexible solution you're looking for.</string>
+	<key>developer</key>
+	<string>WhiteBox</string>
 	<key>display_name</key>
 	<string>Packages</string>
 	<key>installed_size</key>

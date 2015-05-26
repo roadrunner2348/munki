@@ -10,8 +10,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Video, Photos, &amp; Graphics</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Apple</string>
 	<key>display_name</key>
 	<string>iPhoto</string>
 	<key>installer_item_hash</key>

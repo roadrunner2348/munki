@@ -24,11 +24,11 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string></string>
+	<string>Productivity</string>
 	<key>description</key>
 	<string></string>
 	<key>developer</key>
-	<string></string>
+	<string>Munki</string>
 	<key>display_name</key>
 	<string>Munki - Managed software installation for OS X</string>
 	<key>force_install_after_date</key>

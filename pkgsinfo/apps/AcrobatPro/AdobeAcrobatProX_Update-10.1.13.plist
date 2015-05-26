@@ -23,8 +23,12 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Adobe</string>
 	<key>display_name</key>
 	<string>Adobe Acrobat Pro Update</string>
 	<key>installed_size</key>

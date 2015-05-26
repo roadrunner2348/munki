@@ -20,8 +20,12 @@
 		<string>testing</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>System Updates</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Apple</string>
 	<key>display_name</key>
 	<string>Mac OS X 10.8.5 Combo Update</string>
 	<key>force_install_after_date</key>

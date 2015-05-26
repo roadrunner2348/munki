@@ -20,8 +20,12 @@
 		<string>testing</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string>Mozilla Firefox is a free and open source web browser.</string>
+	<key>developer</key>
+	<string>Mozilla</string>
 	<key>display_name</key>
 	<string>Mozilla Firefox</string>
 	<key>installer_item_hash</key>

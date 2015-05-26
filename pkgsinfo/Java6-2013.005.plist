@@ -10,8 +10,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Oracle</string>
 	<key>display_name</key>
 	<string>Java for OS X 2013-005</string>
 	<key>installed_size</key>

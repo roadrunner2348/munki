@@ -19,8 +19,12 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Printer Drivers</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Hewlett Packard</string>
 	<key>display_name</key>
 	<string>HP Color LaserJet Enterprise M51dn</string>
 	<key>installed_size</key>

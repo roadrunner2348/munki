@@ -19,8 +19,12 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+	<key>developer</key>
+	<string>Microsoft</string>
 	<key>display_name</key>
 	<string>Microsoft Silverlight</string>
 	<key>installed_size</key>

@@ -21,8 +21,12 @@
 		<string>production</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Printer Drivers</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Hewlett Packard</string>
 	<key>display_name</key>
 	<string>HP LaserJet 600 M601dn</string>
 	<key>installed_size</key>

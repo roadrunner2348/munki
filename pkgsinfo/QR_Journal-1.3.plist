@@ -10,8 +10,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>description</key>
 	<string>QR Code Reader</string>
+	<key>developer</key>
+	<string>Josh Jacob</string>
 	<key>display_name</key>
 	<string>QR Journal</string>
 	<key>installer_item_hash</key>

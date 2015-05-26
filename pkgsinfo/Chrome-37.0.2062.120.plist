@@ -21,8 +21,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Google</string>
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>

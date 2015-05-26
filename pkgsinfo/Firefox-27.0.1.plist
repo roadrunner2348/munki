@@ -16,8 +16,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Mozilla</string>
 	<key>display_name</key>
 	<string>Firefox Web Browser</string>
 	<key>installer_item_hash</key>

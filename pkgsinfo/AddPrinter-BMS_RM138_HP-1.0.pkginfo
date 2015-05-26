@@ -12,6 +12,8 @@
 	<string>Bolger Printers</string>
 	<key>description</key>
 	<string>Bolger Room 138 HP</string>
+	<key>developer</key>
+	<string>Keansburg School District</string>
 	<key>display_name</key>
 	<string>BMS Room 138 HP</string>
 	<key>icon_name</key>

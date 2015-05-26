@@ -21,8 +21,12 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Management Tools</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Munki</string>
 	<key>display_name</key>
 	<string>Munki - Managed software installation for OS X</string>
 	<key>installed_size</key>

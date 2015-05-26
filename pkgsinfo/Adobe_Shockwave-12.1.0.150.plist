@@ -10,8 +10,12 @@
 		<string>pilot</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Adobe</string>
 	<key>display_name</key>
 	<string>Adobe Shockwave Player 12.1</string>
 	<key>installed_size</key>

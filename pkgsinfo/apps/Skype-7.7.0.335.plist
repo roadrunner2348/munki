@@ -19,8 +19,12 @@
 	<array>
 		<string>testing</string>
 	</array>
+	<key>category</key>
+	<string>Communication</string>
 	<key>description</key>
 	<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+	<key>developer</key>
+	<string>Microsoft</string>
 	<key>display_name</key>
 	<string>Skype</string>
 	<key>installer_item_hash</key>

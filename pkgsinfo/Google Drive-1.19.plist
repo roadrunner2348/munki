@@ -22,11 +22,11 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string></string>
+	<string>Productivity</string>
 	<key>description</key>
 	<string></string>
 	<key>developer</key>
-	<string></string>
+	<string>Google</string>
 	<key>display_name</key>
 	<string>Google Drive</string>
 	<key>icon_name</key>

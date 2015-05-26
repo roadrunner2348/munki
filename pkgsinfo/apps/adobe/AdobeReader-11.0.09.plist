@@ -26,8 +26,12 @@
 		<string>production</string>
 		<string>pilot</string>
 	</array>
+	<key>category</key>
+	<string>Internet Browsers &amp; Plugins</string>
 	<key>description</key>
 	<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+	<key>developer</key>
+	<string>Adobe</string>
 	<key>display_name</key>
 	<string>Adobe Reader</string>
 	<key>installed_size</key>

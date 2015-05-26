@@ -20,8 +20,12 @@
 		<string>testing</string>
 		<string>production</string>
 	</array>
+	<key>category</key>
+	<string>Music &amp; Audio</string>
 	<key>description</key>
 	<string></string>
+	<key>developer</key>
+	<string>Apple</string>
 	<key>display_name</key>
 	<string>GarageBand Song Writer Drum Kits</string>
 	<key>installed_size</key>

@@ -12,6 +12,8 @@
 	<string>Bolger Printers</string>
 	<key>description</key>
 	<string>RM412 HP P3005</string>
+	<key>developer</key>
+	<string>Keansburg School District</string>
 	<key>display_name</key>
 	<string>BMS Room 412 HP</string>
 	<key>icon_name</key>
