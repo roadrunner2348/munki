@@ -16,8 +16,6 @@
 	<string>Keansburg School District</string>
 	<key>display_name</key>
 	<string>BMS Room 138 HP</string>
-	<key>icon_name</key>
-	<string>SavinPrinterDrivers.png</string>
 	<key>installcheck_script</key>
 	<string>#!/usr/bin/python
 import subprocess
