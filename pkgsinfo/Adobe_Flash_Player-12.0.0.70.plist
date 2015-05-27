@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>autoremove</key>
-	<true/>
+	<false/>
 	<key>blocking_applications</key>
 	<array>
 		<string>Firefox</string>
