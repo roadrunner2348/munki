@@ -19,6 +19,7 @@
 	<array>
 		<string>testing</string>
 		<string>pilot</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Communication</string>

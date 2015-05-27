@@ -18,6 +18,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Printer Drivers</string>
@@ -27,8 +28,6 @@
 	<string>Apple</string>
 	<key>display_name</key>
 	<string>Hewlett-Packard Printer Software</string>
-	<key>icon_name</key>
-	<string>HewlettPackardPrinterDrivers_3.png</string>
 	<key>installed_size</key>
 	<integer>574263</integer>
 	<key>installer_item_hash</key>

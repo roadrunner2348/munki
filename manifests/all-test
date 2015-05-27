@@ -17,9 +17,7 @@
 		<string>Firefox</string>
 		<string>GarageBand</string>
 		<string>Google_Drive</string>
-		<string>HP_CLJ_M451</string>
-		<string>HP_CLJ_M651</string>
-		<string>HP_LJ_601</string>
+		<string>HewlettPackardPrinterDrivers</string>
 		<string>iBooks Author</string>
 		<string>iMovie</string>
 		<string>iPhoto</string>
@@ -34,9 +32,9 @@
 		<string>Office_2011_Update</string>
 		<string>Pages</string>
 		<string>QR_Journal</string>
+		<string>SavinPrinterDrivers</string>
 		<string>Silverlight</string>
 		<string>SketchUp</string>
-		<string>SmartboardNB</string>
 	</array>
 </dict>
 </plist>
