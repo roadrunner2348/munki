@@ -9,7 +9,7 @@
 		<key>created_by</key>
 		<string>jwolf</string>
 		<key>creation_date</key>
-		<date>2015-05-26T14:57:28Z</date>
+		<date>2015-05-27T15:20:18Z</date>
 		<key>munki_version</key>
 		<string>2.2.3.2418</string>
 		<key>os_version</key>
@@ -20,7 +20,7 @@
 		<key>media_signature</key>
 		<string>{78E6AED6-9091-425A-A2F6-47D15A2D845D}</string>
 		<key>payload_count</key>
-		<integer>63</integer>
+		<integer>61</integer>
 		<key>uninstallxml</key>
 		<string>&lt;Deployment&gt;
                 &lt;Properties&gt;
@@ -29,6 +29,10 @@
                     &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
                 &lt;/Properties&gt;
                 &lt;Payloads&gt;
+                    &lt;!-- AdobeHelp --&gt;
+                    &lt;Payload adobeCode="{0175676F-8C92-49F2-9131-D0D6AD654B41}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
                     &lt;!-- Adobe Photoshop CS5.1 --&gt;
                     &lt;Payload adobeCode="{08EF22BC-43B2-4B4E-BA12-52B18F418F38}"&gt;
                         &lt;Action&gt;remove&lt;/Action&gt;
@@ -36,6 +40,10 @@
                     &lt;!-- Adobe InDesign CS5.5 --&gt;
                     &lt;Payload adobeCode="{0CCF0458-5171-11E0-BC45-DC59E3AB3DC5}"&gt;
                         &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Content Viewer --&gt;
+                    &lt;Payload adobeCode="{83478D6E-4AA8-11E0-A479-24B1F9D7AC32}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
                     &lt;/Payload&gt;
                     &lt;!-- Adobe Illustrator CS5.1 --&gt;
                     &lt;Payload adobeCode="{A516708E-EC03-40F5-B82E-0851A44B3780}"&gt;
@@ -68,14 +76,16 @@
 	<string>Adobe</string>
 	<key>display_name</key>
 	<string>Creative Suite 5.5 Design Standard</string>
+	<key>icon_hash</key>
+	<string>a109b687dcb4f0ad72c473c05ab803fcfe6475a1f5b68f3ca055469a1cb552be</string>
 	<key>installed_size</key>
-	<integer>2639703</integer>
+	<integer>2589338</integer>
 	<key>installer_item_hash</key>
-	<string>8c0aa9fdecf172d9764e28595cc8bf5f5f15adca745a1c19792152a2b1b01951</string>
+	<string>629c64abdf151ee356f9ca061a3240f5447cb48b3ac89dac84135dd0a923ae75</string>
 	<key>installer_item_location</key>
 	<string>Adobe_CS5.5_Install_Install-5.5.dmg</string>
 	<key>installer_item_size</key>
-	<integer>2538551</integer>
+	<integer>2495691</integer>
 	<key>installer_type</key>
 	<string>AdobeCS5AAMEEPackage</string>
 	<key>installs</key>
@@ -245,16 +255,6 @@
 		</dict>
 		<dict>
 			<key>AdobeCode</key>
-			<string>{83478D6E-4AA8-11E0-A479-24B1F9D7AC32}</string>
-			<key>display_name</key>
-			<string>Adobe Content Viewer</string>
-			<key>installed_size</key>
-			<integer>44701</integer>
-			<key>version</key>
-			<string>1.0</string>
-		</dict>
-		<dict>
-			<key>AdobeCode</key>
 			<string>{BD85DFD4-005F-4219-8E27-C922CC4D8A61}</string>
 			<key>display_name</key>
 			<string>Adobe CSXS Extensions CS5.5</string>
@@ -362,16 +362,6 @@
 			<integer>124041</integer>
 			<key>version</key>
 			<string>1.0</string>
-		</dict>
-		<dict>
-			<key>AdobeCode</key>
-			<string>{0175676F-8C92-49F2-9131-D0D6AD654B41}</string>
-			<key>display_name</key>
-			<string>AdobeHelp</string>
-			<key>installed_size</key>
-			<integer>5664</integer>
-			<key>version</key>
-			<string>3.4</string>
 		</dict>
 		<dict>
 			<key>AdobeCode</key>
