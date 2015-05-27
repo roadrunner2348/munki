@@ -714,6 +714,10 @@
 			<string>2.0</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array>
+		<string>Java6</string>
+	</array>
 	<key>unattended_install</key>
 	<false/>
 	<key>uninstall_method</key>
