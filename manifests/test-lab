@@ -9,31 +9,60 @@
 		<string>production</string>
 	</array>
 	<key>managed_installs</key>
-	<array>
-		<string>Adobe_Flash_Player</string>
-		<string>AdobeCS55</string>
-		<string>AdobeReader</string>
-		<string>Chrome</string>
-		<string>Evernote</string>
-		<string>Firefox</string>
-		<string>Google_Drive</string>
-		<string>Java</string>
-		<string>LibreOffice</string>
-		<string>Microsoft_Office_2011</string>
-		<string>Office_2011_Update</string>
-	</array>
+	<array/>
 	<key>optional_installs</key>
 	<array>
 		<string>AddPrinter-BMS_RM138_HP</string>
 		<string>AddPrinter-BMS_RM412_HP</string>
+		<string>Adobe_Flash_Player</string>
+		<string>Adobe_Shockwave</string>
+		<string>AdobeAcrobatProX_Update</string>
+		<string>AdobeAIR</string>
+		<string>AdobeCS55</string>
+		<string>AdobeReader</string>
+		<string>Chrome</string>
+		<string>CoRD</string>
 		<string>Evernote</string>
+		<string>Firefox</string>
+		<string>GarageBand</string>
 		<string>GIMP</string>
+		<string>Google_Drive</string>
+		<string>HewlettPackardPrinterDrivers</string>
+		<string>HP_CLJ_M451</string>
+		<string>HP_CLJ_M651</string>
+		<string>HP_LJ_601</string>
+		<string>iBooks Author</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+		<string>Java</string>
+		<string>Java6</string>
+		<string>Keynote</string>
+		<string>LibreOffice</string>
+		<string>MAContent10_GarageBandCoreContent</string>
+		<string>MAContent10_GarageBandPremiumContent</string>
+		<string>MAContent10_GB_StereoDrumKitsAlternative</string>
+		<string>MAContent10_GB_StereoDrumKitsRnB</string>
+		<string>MAContent10_GB_StereoDrumKitsRock</string>
+		<string>MAContent10_GB_StereoDrumKitsSongWriter</string>
+		<string>Microsoft_Office_2011</string>
+		<string>MS2011_Lic_Fix</string>
 		<string>MunkiAdmin</string>
+		<string>munkitools</string>
+		<string>Numbers</string>
+		<string>Office_2011_Update</string>
 		<string>Opera</string>
+		<string>Packages</string>
+		<string>Pages</string>
 		<string>QR_Journal</string>
 		<string>Recon</string>
+		<string>sal_scripts</string>
+		<string>SavinPrinterDrivers</string>
+		<string>Silverlight</string>
 		<string>SketchUp</string>
 		<string>Skype</string>
+		<string>SmartboardNB</string>
+		<string>SophosEnterprise</string>
+		<string>Spotify</string>
 		<string>TextWrangler</string>
 		<string>VLC</string>
 	</array>
