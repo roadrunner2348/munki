@@ -724,8 +724,6 @@
 	<string>AdobeCS5AAMEEPackage</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>uninstaller_item_location</key>
-	<string>Adobe_CS5.5_Uninstall.dmg</string>
 	<key>version</key>
 	<string>5.5</string>
 </dict>
