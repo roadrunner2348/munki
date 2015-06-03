@@ -24,6 +24,8 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>pilot</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Internet Browsers &amp; Plugins</string>
@@ -33,6 +35,8 @@
 	<string>Adobe</string>
 	<key>display_name</key>
 	<string>Adobe Flash Player</string>
+	<key>force_install_after_date</key>
+	<date>2015-06-05T07:00:00Z</date>
 	<key>installed_size</key>
 	<integer>16090</integer>
 	<key>installer_item_hash</key>

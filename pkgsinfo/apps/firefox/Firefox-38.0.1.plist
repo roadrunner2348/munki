@@ -19,6 +19,7 @@
 	<array>
 		<string>testing</string>
 		<string>production</string>
+		<string>pilot</string>
 	</array>
 	<key>category</key>
 	<string>Internet Browsers &amp; Plugins</string>
